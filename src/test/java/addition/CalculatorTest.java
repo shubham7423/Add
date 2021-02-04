@@ -19,7 +19,7 @@ public class CalculatorTest {
 		Calculator calculator = new Calculator();
 		calculator.a = 20;
 		calculator.b = 30;
-		assertEquals(50, calculator.addNum());
+		assertEquals(10, calculator.addNum());
 	}
 	
 	@Test
