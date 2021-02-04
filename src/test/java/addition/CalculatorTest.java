@@ -18,8 +18,8 @@ public class CalculatorTest {
 	public void test_add_2() {
 		Calculator calculator = new Calculator();
 		calculator.a = 20;
-		calculator.b = 30;
-		assertEquals(10, calculator.addNum());
+		calculator.b = 10;
+		assertEquals(30, calculator.addNum());
 	}
 	
 	@Test
