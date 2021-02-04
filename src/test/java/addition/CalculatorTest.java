@@ -26,8 +26,8 @@ public class CalculatorTest {
 	public void test_add_3() {
 		Calculator calculator = new Calculator();
 		calculator.a = 40;
-		calculator.b = 20;
-		assertEquals(20, calculator.subtract());
+		calculator.b = 10;
+		assertEquals(30, calculator.subtract());
 	}
 	
 	@Test
