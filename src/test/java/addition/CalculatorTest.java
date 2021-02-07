@@ -46,5 +46,13 @@ public class CalculatorTest {
 		calculator.b = 20;
 		assertEquals(-10, calculator.subtract());
 	}
+	
+	@Test
+	public void test_sub_3() {
+		Calculator calculator = new Calculator();
+		calculator.a = 10;
+		calculator.b = 20;
+		assertEquals(-10, calculator.subtract());
+	}
 
 }
